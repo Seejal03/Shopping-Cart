@@ -1,0 +1,42 @@
+section{
+    width:80%;
+    margin:auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+}
+.cards{
+    width:250px;
+    padding: 20px;
+}
+.cards:hover{
+    box-shadow: 0 10px 10px 10px rgba(0,0,0,0.1);
+    cursor:pointer;
+}
+.image_box img{
+    width:175px;
+    height:225px;
+}
+.details button{
+   padding:5px 10px;
+   padding-top: 5px;
+   border: 1px;
+   border-radius: 5px; 
+   background-color: rgb(220, 135, 24);
+   color: aliceblue;
+   font-size: large;
+   font: sans-serif;
+   cursor:pointer;
+   font-weight: 600;
+}
+.details button:hover{
+    background-color: orange;
+}
+.details{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    padding: 10px;
+    margin-bottom: 3px;
+    font-size: 1.2 rem;
+}
